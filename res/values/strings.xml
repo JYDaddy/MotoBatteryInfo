@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MotoBatteryInfo</string>
+    <string name="appinfo">Motorola Battery Information</string>
+    <string name="logerrtag">MBI_Err</string>
+    <string name="main_notice_footer">
+    (c) 2011 J.Y.Daddy (j.y.daddy.kr@gmail.com)
+    </string>
+    
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="refresh">Refresh</string>
+
+    <string name="battsyspath">/sys/devices/platform/cpcap_battery/power_supply/battery</string>
+	<string-array name="battinfoitems">
+		<item>capacity</item>
+		<item>charge_counter</item>
+		<item>charge_full_design</item>
+		<item>cycle_count</item>
+		<item>health</item>
+		<item>power</item>
+		<item>present</item>
+		<item>status</item>
+		<item>technology</item>
+		<item>temp</item>
+		<item>type</item>
+		<item>voltage_now</item>
+	</string-array>
+	<string-array name="battinfotitles">
+		<item>Current Display</item>
+		<item>Current Counter</item>
+		<item>Total Capacity</item>
+		<item>Cycle Count</item>
+		<item>Health</item>
+		<item>Power</item>
+		<item>Present</item>
+		<item>Status</item>
+		<item>Technology</item>
+		<item>Temperature</item>
+		<item>Type</item>
+		<item>Current Voltage</item>
+	</string-array>
+	<string-array name="battinfoitemtails">
+		<item>%</item>
+		<item>%</item>
+		<item>Amh</item>
+		<item></item>
+		<item></item>
+		<item></item>
+		<item></item>
+		<item></item>
+		<item></item>
+		<item></item>
+		<item></item>
+		<item></item>
+	</string-array>
+    
+</resources>
